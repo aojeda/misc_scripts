@@ -13,6 +13,11 @@ apt-get update
 apt-get install cuda
 ```
 
+3- Install cuDNN v5.1. You need to download your own `.deb` from your [NVIDIA developer accont](https://developer.nvidia.com/), then install it with
+```bash
+dpkg -i libcudnn5_5.1.10-1+cuda8.0_amd64.deb
+```
+
 3- Install CUDA Profile Tools Interface
 ```bash
 sudo apt-get install libcupti-dev
