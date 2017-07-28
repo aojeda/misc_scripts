@@ -85,7 +85,7 @@ To mount the drives without restarting the client run the following command:
 ```bash
 mount -a
 ```
-This is all we need on the client side related to theh NFS.
+This is all we need on the client side related to the NFS.
 
 ### Set Static IP Addresses
 The last thing we need to do is to set the ip addresses of the server and client machines to static, so that every time they are restarted they get assigned the same ip and all our configuration files stay consistent. You can find a detailed tutorial [here](https://www.swiftstack.com/docs/install/configure_networking.html). For our example, we first run
