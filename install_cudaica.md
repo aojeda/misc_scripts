@@ -21,8 +21,8 @@ You may need to install other dependencies depending on the state of your system
 
 3- Locate the directory containing the cuda libraries, which for many systems will be */usr/local/cuda*, and add it to the */etc/ld.so.conf.d/cuda.conf* file as follows:
 ```bash
-echo "/usr/local/cuda/lib64" > /etc/ld.so.conf.d/cuda.conf
-ldconfig	# configure dynamic linker run-time bindings
+sudo echo "/usr/local/cuda/lib64" > /etc/ld.so.conf.d/cuda.conf
+sudo ldconfig	# configure dynamic linker run-time bindings
 ```
 
 4- Run the automake script that comes with cudaica:
